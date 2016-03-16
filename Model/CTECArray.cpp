@@ -115,7 +115,17 @@ int CTECArray<Type> :: indexOf(Type searchValue)
     
     ArrayNode<Type> current = head;
     
-    
+    for(int index = 0; index < this->size; index++)
+    {
+        if(current->getValue() == searchValue)
+        {
+            return index;
+        }
+        else
+        {
+            current = current->getNext();
+        }
+    }
     
     return indexOfValue;
 }
