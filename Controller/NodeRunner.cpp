@@ -14,4 +14,13 @@ int main()
 	return 0;
 }
 
+void NodeController::doMergesort()
+{
+    merge
+}
 
+template <class Type>
+void CTECList<Type> :: swap && indexTwo
+{
+    
+}

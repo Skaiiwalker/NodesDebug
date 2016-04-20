@@ -15,7 +15,9 @@ class CTECArray
 {
 private:
 	int size;
+    void calculateSize();
 	ArrayNode<Type> * head;
+    ArrayNode<Type> * end;
 private:
 	CTECArray(int size);
 	virtual ~CTECArray();

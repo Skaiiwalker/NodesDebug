@@ -9,20 +9,30 @@
 #define CONTROLLER_NODE_H_
 
 #include <iostream>
+#include "../Model/Node.cpp"
+#include "../Model/ArrayNode.cpp"
+#include "../Model/CTECArray.cpp"
+#include "../Model/timer.h"
+#include <string>
 
-template <class Type>
-class Node
+using namespace std;
+
+class NodeController
 {
 private:
-	Type value;
-	Node * pointers;
+    Timer arrayTimer;
+    void sortData();
+    void testList();
+    void searchText();
+    
+    int * mergeData;
+    void doMergesort();
+    void mergesort(int data [], int size)
+    void merge(int data [], int sizeOne, int sizeTwo);
 public:
-	Node();
-	Node(const Type& value);
-	virtual ~Node();
-	Type getValue();
-	void setValue(const Type& value);
-	Node * getPointers();
+    NodeController();
+    virtual ~NodeController();
+    void start();
 };
 
 
