@@ -20,6 +20,7 @@ using namespace std;
 class NodeController
 {
 private:
+    CTECArray<int> * notHipsterInts;
     Timer arrayTimer;
     void sortData();
     void testList();
@@ -27,7 +28,7 @@ private:
     
     int * mergeData;
     void doMergesort();
-    void mergesort(int data [], int size)
+    void mergesort(int data [], int size);
     void merge(int data [], int sizeOne, int sizeTwo);
 public:
     NodeController();

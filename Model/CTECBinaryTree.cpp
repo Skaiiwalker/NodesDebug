@@ -74,3 +74,27 @@ bool CTECBinaryTree<Type> :: insert(const Type value)
         return true;
     }
 }
+
+template <class Type>
+TreeNode<Type> * CTECBinaryTree :: getRightMostChild(CTECBinaryTree<Type> leftSubTree)
+{
+    TreeNode<Type> * rightNode = leftSubTree->getRoot();
+    while(rightNode->getRightChild() != nullptr)
+    {
+        rightNode = rightNode->getRightChild();
+    }
+            
+    return rightNode;
+}
+         
+template <class Type>
+TreeNode<Type> * CTECBinaryTree :: getLeftMostChild(CTECBinaryTree<Type> rightSubTree)
+{
+    TreeNode<Type> * leftNode = rightSubTree->getRoot();
+    while(leftNode->getLeftChild() != nullptr)
+    {
+        leftNode = leftNode->getLeftChild();
+    }
+            
+    return leftNode;
+}

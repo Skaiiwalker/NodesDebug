@@ -36,3 +36,4 @@ TreeNode<Type> :: TreeNode(const Type& value, TreeNode<Type> * parent) : Node<Ty
     this->setValue(value);
     this->setParent(parent);
 }
+

@@ -25,6 +25,7 @@ private:
 	Type get(int position);
 	void set(int position, const Type& value);
     int indexOf(Type value);
+    int nextIndexOf(int startingIndex, Type searchValue);
 };
 
 

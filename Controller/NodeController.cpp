@@ -6,8 +6,6 @@
  */
 
 #include "NodeController.h"
-#include <iostream>
-#include <stdib.
 
 using namespace std;
 
@@ -26,7 +24,7 @@ void NodeController::testList()
     
 }
 
-void NodeController::searchTest()
+void NodeController::searchText()
 {
     
 }

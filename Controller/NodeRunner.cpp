@@ -16,7 +16,7 @@ int main()
 
 void NodeController::doMergesort()
 {
-    merge
+    
 }
 
 template <class Type>
