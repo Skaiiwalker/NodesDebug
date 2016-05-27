@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D2787CD1CF8CB8700C4C2BE /* CTECGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D2787CB1CF8CB8700C4C2BE /* CTECGraph.cpp */; };
+		3D2787D01CF8D4FB00C4C2BE /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D2787CE1CF8D4FB00C4C2BE /* HashTable.cpp */; };
 		3D40C2171CBE918900FCA887 /* CTECBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D40C2151CBE918900FCA887 /* CTECBinaryTree.cpp */; };
 		3D6C13051CBBE6A100950859 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C13031CBBE6A100950859 /* TreeNode.cpp */; };
 		3D7D18E11CCE5A3C0018C2B9 /* MorningGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D18DF1CCE5A3C0018C2B9 /* MorningGraph.cpp */; };
@@ -34,6 +35,8 @@
 /* Begin PBXFileReference section */
 		3D2787CB1CF8CB8700C4C2BE /* CTECGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECGraph.cpp; sourceTree = "<group>"; };
 		3D2787CC1CF8CB8700C4C2BE /* CTECGraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CTECGraph.hpp; sourceTree = "<group>"; };
+		3D2787CE1CF8D4FB00C4C2BE /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		3D2787CF1CF8D4FB00C4C2BE /* HashTable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HashTable.hpp; sourceTree = "<group>"; };
 		3D40C2151CBE918900FCA887 /* CTECBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECBinaryTree.cpp; sourceTree = "<group>"; };
 		3D40C2161CBE918900FCA887 /* CTECBinaryTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CTECBinaryTree.hpp; sourceTree = "<group>"; };
 		3D6C13031CBBE6A100950859 /* TreeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				3D7D18E01CCE5A3C0018C2B9 /* MorningGraph.hpp */,
 				3D2787CB1CF8CB8700C4C2BE /* CTECGraph.cpp */,
 				3D2787CC1CF8CB8700C4C2BE /* CTECGraph.hpp */,
+				3D2787CE1CF8D4FB00C4C2BE /* HashTable.cpp */,
+				3D2787CF1CF8D4FB00C4C2BE /* HashTable.hpp */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				3D9481151C99AB1B0064BEAC /* ArrayNode.cpp in Sources */,
 				3D6C13051CBBE6A100950859 /* TreeNode.cpp in Sources */,
 				3D9481161C99AB1B0064BEAC /* CTECArray.cpp in Sources */,
+				3D2787D01CF8D4FB00C4C2BE /* HashTable.cpp in Sources */,
 				3D40C2171CBE918900FCA887 /* CTECBinaryTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

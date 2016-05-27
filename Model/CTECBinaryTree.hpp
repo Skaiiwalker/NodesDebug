@@ -21,7 +21,7 @@ class CTECBinaryTee
         int height;
         int size;
         bool balanced;
-        bool contains(Type value, CTECBinaryTree<Type> * currentTree); //Done.
+        bool contains(Type value, CTECData::CTECBinaryTee<Type> * currentTree); //Done.
         void calculatedSize(TreeNode<Type> * currentNode); //Done
         TreeNode<Type> * getRightMostChild(CTECBinaryTree * leftSubTree);
         TreeNode<Type> * getLeftMostChild(CTECBinaryTree * rightSubTree);
